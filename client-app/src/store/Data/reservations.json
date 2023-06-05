@@ -1,0 +1,885 @@
+[
+  {
+    "id": 1,
+    "roomsNumbers": [
+      "101"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 2,
+    "roomsNumbers": [
+      "101"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-02T12:00:00",
+    "endDate": "2023-10-03T12:00:00"
+  },
+  {
+    "id": 3,
+    "roomsNumbers": [
+      "102"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-02T12:00:00",
+    "endDate": "2023-10-03T12:00:00"
+  },
+  {
+    "id": 4,
+    "roomsNumbers": [
+      "103"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 2,
+      "name": "Gyventojas",
+      "surname": "Du",
+      "email": "Gyventojas.Du@mail.com",
+      "phoneNumber": "+37062347292"
+    },
+    "startDate": "2023-10-03T12:00:00",
+    "endDate": "2023-10-05T12:00:00"
+  },
+  {
+    "id": 5,
+    "roomsNumbers": [
+      "104"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 2,
+      "name": "Gyventojas",
+      "surname": "Du",
+      "email": "Gyventojas.Du@mail.com",
+      "phoneNumber": "+37062347292"
+    },
+    "startDate": "2023-10-03T12:00:00",
+    "endDate": "2023-10-05T12:00:00"
+  },
+  {
+    "id": 6,
+    "roomsNumbers": [
+      "105"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-03T12:00:00",
+    "endDate": "2023-10-05T12:00:00"
+  },
+  {
+    "id": 7,
+    "roomsNumbers": [
+      "106"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-03T12:00:00",
+    "endDate": "2023-10-05T12:00:00"
+  },
+  {
+    "id": 8,
+    "roomsNumbers": [
+      "107"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-03T12:00:00",
+    "endDate": "2023-10-05T12:00:00"
+  },
+  {
+    "id": 9,
+    "roomsNumbers": [
+      "102"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 10,
+    "roomsNumbers": [
+      "103"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 11,
+    "roomsNumbers": [
+      "101"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 12,
+    "roomsNumbers": [
+      "104"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 13,
+    "roomsNumbers": [
+      "105"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 14,
+    "roomsNumbers": [
+      "106"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 15,
+    "roomsNumbers": [
+      "107"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 16,
+    "roomsNumbers": [
+      "108"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 17,
+    "roomsNumbers": [
+      "109"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 18,
+    "roomsNumbers": [
+      "110"
+    ],
+    "roomTypes": [
+      "BasicForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 19,
+    "roomsNumbers": [
+      "201"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-08T12:00:00",
+    "endDate": "2023-10-13T12:00:00"
+  },
+  {
+    "id": 20,
+    "roomsNumbers": [
+      "202"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-02T12:00:00",
+    "endDate": "2023-10-12T12:00:00"
+  },
+  {
+    "id": 21,
+    "roomsNumbers": [
+      "203"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-02T12:00:00",
+    "endDate": "2023-10-12T12:00:00"
+  },
+  {
+    "id": 22,
+    "roomsNumbers": [
+      "204"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 4,
+      "name": "Gyventojas",
+      "surname": "Keturi",
+      "email": "Gyventojas.Keturi@mail.com",
+      "phoneNumber": "+37062347294"
+    },
+    "startDate": "2023-10-02T12:00:00",
+    "endDate": "2023-10-12T12:00:00"
+  },
+  {
+    "id": 23,
+    "roomsNumbers": [
+      "201"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-05T12:00:00",
+    "endDate": "2023-10-16T12:00:00"
+  },
+  {
+    "id": 24,
+    "roomsNumbers": [
+      "205"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-05T12:00:00",
+    "endDate": "2023-10-16T12:00:00"
+  },
+  {
+    "id": 25,
+    "roomsNumbers": [
+      "206"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-05T12:00:00",
+    "endDate": "2023-10-16T12:00:00"
+  },
+  {
+    "id": 26,
+    "roomsNumbers": [
+      "207"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 27,
+    "roomsNumbers": [
+      "208"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 28,
+    "roomsNumbers": [
+      "209"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 29,
+    "roomsNumbers": [
+      "210"
+    ],
+    "roomTypes": [
+      "MiniForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 30,
+    "roomsNumbers": [
+      "301"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 31,
+    "roomsNumbers": [
+      "302"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-08T12:00:00"
+  },
+  {
+    "id": 32,
+    "roomsNumbers": [
+      "301"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 33,
+    "roomsNumbers": [
+      "302"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-11T12:00:00"
+  },
+  {
+    "id": 34,
+    "roomsNumbers": [
+      "303"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-03T12:00:00"
+  },
+  {
+    "id": 35,
+    "roomsNumbers": [
+      "304"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-01T12:00:00",
+    "endDate": "2023-10-03T12:00:00"
+  },
+  {
+    "id": 36,
+    "roomsNumbers": [
+      "301"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-13T12:00:00",
+    "endDate": "2023-10-14T12:00:00"
+  },
+  {
+    "id": 37,
+    "roomsNumbers": [
+      "302"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-13T12:00:00",
+    "endDate": "2023-10-14T12:00:00"
+  },
+  {
+    "id": 38,
+    "roomsNumbers": [
+      "303"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-13T12:00:00",
+    "endDate": "2023-10-14T12:00:00"
+  },
+  {
+    "id": 39,
+    "roomsNumbers": [
+      "303"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-15T12:00:00"
+  },
+  {
+    "id": 40,
+    "roomsNumbers": [
+      "304"
+    ],
+    "roomTypes": [
+      "VipForTwo"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Gyventojas",
+      "surname": "Trys",
+      "email": "Gyventojas.Trys@mail.com",
+      "phoneNumber": "+37062347293"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-15T12:00:00"
+  },
+  {
+    "id": 41,
+    "roomsNumbers": [
+      "401"
+    ],
+    "roomTypes": [
+      "VipForFamily"
+    ],
+    "additionalFeatures": [
+      "GYM"
+    ],
+    "resident": {
+      "id": 1,
+      "name": "Gyventojas",
+      "surname": "Vienas",
+      "email": "Gyventojas.Vienas@mail.com",
+      "phoneNumber": "+37062347291"
+    },
+    "startDate": "2023-10-07T12:00:00",
+    "endDate": "2023-10-15T12:00:00"
+  },
+  {
+    "id": 42,
+    "roomsNumbers": [
+      "401"
+    ],
+    "roomTypes": [
+      "VipForFamily"
+    ],
+    "additionalFeatures": [
+      "Bowling",
+      "GYM"
+    ],
+    "resident": {
+      "id": 3,
+      "name": "Dziugas",
+      "surname": "Garla",
+      "email": "dziugas.mail@mail.com",
+      "phoneNumber": "+37062347298"
+    },
+    "startDate": "2023-05-26T12:00:00",
+    "endDate": "2023-05-28T12:00:00"
+  }
+]

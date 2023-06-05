@@ -1,0 +1,21 @@
+/* styles */
+@import "~bootstrap/scss/bootstrap";
+
+
+.actions {
+  text-align: center;
+}
+
+.actions-last {
+  text-align-last: center;
+}
+
+.image {
+  width: 100%;
+}
+
+.table
+{
+  table-layout: fixed;
+  text-align: center;
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<DocumentationFile>..\API\obj\Debug\net6.0\BusinessLayer.xml</DocumentationFile>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<NoWarn>$(NoWarn);CS8618</NoWarn>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>UnitTests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\RepositoryLayer\RepositoryLayer.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Enums\BookingEnums\" />
+	</ItemGroup>
+
+</Project>

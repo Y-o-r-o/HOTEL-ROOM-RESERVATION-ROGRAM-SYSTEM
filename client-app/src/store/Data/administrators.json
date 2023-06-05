@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Dziugas",
+      "surname": "Garla",
+      "phoneNumber": "+37062347299",
+      "email": "dziugas.mail@mail.com"
+    },
+    {
+      "id": 2,
+      "name": "Administrator1",
+      "surname": "Test1",
+      "phoneNumber": "+37062347291",
+      "email": "test1@mail.com"
+    },
+    {
+      "id": 3,
+      "name": "Administrator2",
+      "surname": "Test2",
+      "phoneNumber": "+37062347292",
+      "email": "test2@mail.com"
+    },
+    {
+      "id": 4,
+      "name": "Administrator3",
+      "surname": "Test3",
+      "phoneNumber": "+37062347293",
+      "email": "test3@mail.com"
+    },
+    {
+      "id": 5,
+      "name": "Administrator4",
+      "surname": "Test4",
+      "phoneNumber": "+37062347294",
+      "email": "test4@mail.com"
+    },
+    {
+      "id": 6,
+      "name": "Administrator5",
+      "surname": "Test5",
+      "phoneNumber": "+37062347295",
+      "email": "test5@mail.com"
+    }
+  ]

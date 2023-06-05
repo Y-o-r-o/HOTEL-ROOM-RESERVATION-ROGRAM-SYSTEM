@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Bowling",
+    "desc": "Whether you get strike after strike or just strike out, we've got you covered with our retro bowling lanes. Get ready to bowl, drink and dine in style! You wil get 4 hours of bowling.",
+    "capacity": 2,
+    "price": 20,
+    "photo": "activity_1.png"
+  },
+  {
+    "id": 2,
+    "name": "ELECTRIC SCOOTERS",
+    "desc": "WE HAVE WIDE RANGE  FLEET OF ELECTRIC SCOOTERS AND ELECTRIC BIKES. NO MATTER YOU ARE YOU ARE LOOKING FOR A RIDE IN THE CITY OR OFF-ROAD, YOU WILL FIND BEST E-SCOOTER OR E-BIKE FOR YOUR SPECIAL NEEDS!",
+    "capacity": 2,
+    "price": 25,
+    "photo": "activity_2.png"
+  },
+  {
+    "id": 3,
+    "name": "SPA Pool",
+    "desc": "As the pool is surrounded by Victorian ironwork and skylight windows that allow natural light to stream in, swimming there can feel like bathing in a different era. As well as a 25-metre adult pool, there’s also a small children’s pool.",
+    "capacity": 4,
+    "price": 20,
+    "photo": "activity_3.png"
+  },
+  {
+    "id": 4,
+    "name": "GYM",
+    "desc": "This brand-new gym is proud of its far-reaching and all-encompassing approach to fitness and health.",
+    "capacity": 7,
+    "price": 20,
+    "photo": "activity_4.png"
+  }
+]

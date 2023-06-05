@@ -1,0 +1,368 @@
+[
+  {
+    "id": 1,
+    "type": "BasicForTwo",
+    "number": "101",
+    "reservationsIds": [
+      1,
+      2,
+      11
+    ]
+  },
+  {
+    "id": 2,
+    "type": "BasicForTwo",
+    "number": "102",
+    "reservationsIds": [
+      3,
+      9
+    ]
+  },
+  {
+    "id": 3,
+    "type": "BasicForTwo",
+    "number": "103",
+    "reservationsIds": [
+      4,
+      10
+    ]
+  },
+  {
+    "id": 4,
+    "type": "BasicForTwo",
+    "number": "104",
+    "reservationsIds": [
+      5,
+      12
+    ]
+  },
+  {
+    "id": 5,
+    "type": "BasicForTwo",
+    "number": "105",
+    "reservationsIds": [
+      6,
+      13
+    ]
+  },
+  {
+    "id": 6,
+    "type": "BasicForTwo",
+    "number": "106",
+    "reservationsIds": [
+      7,
+      14
+    ]
+  },
+  {
+    "id": 7,
+    "type": "BasicForTwo",
+    "number": "107",
+    "reservationsIds": [
+      8,
+      15
+    ]
+  },
+  {
+    "id": 8,
+    "type": "BasicForTwo",
+    "number": "108",
+    "reservationsIds": [
+      16
+    ]
+  },
+  {
+    "id": 9,
+    "type": "BasicForTwo",
+    "number": "109",
+    "reservationsIds": [
+      17
+    ]
+  },
+  {
+    "id": 10,
+    "type": "BasicForTwo",
+    "number": "110",
+    "reservationsIds": [
+      18
+    ]
+  },
+  {
+    "id": 11,
+    "type": "MiniForTwo",
+    "number": "201",
+    "reservationsIds": [
+      19,
+      23
+    ]
+  },
+  {
+    "id": 12,
+    "type": "MiniForTwo",
+    "number": "202",
+    "reservationsIds": [
+      20
+    ]
+  },
+  {
+    "id": 13,
+    "type": "MiniForTwo",
+    "number": "203",
+    "reservationsIds": [
+      21
+    ]
+  },
+  {
+    "id": 14,
+    "type": "MiniForTwo",
+    "number": "204",
+    "reservationsIds": [
+      22
+    ]
+  },
+  {
+    "id": 15,
+    "type": "MiniForTwo",
+    "number": "205",
+    "reservationsIds": [
+      24
+    ]
+  },
+  {
+    "id": 16,
+    "type": "MiniForTwo",
+    "number": "206",
+    "reservationsIds": [
+      25
+    ]
+  },
+  {
+    "id": 17,
+    "type": "MiniForTwo",
+    "number": "207",
+    "reservationsIds": [
+      26
+    ]
+  },
+  {
+    "id": 18,
+    "type": "MiniForTwo",
+    "number": "208",
+    "reservationsIds": [
+      27
+    ]
+  },
+  {
+    "id": 19,
+    "type": "MiniForTwo",
+    "number": "209",
+    "reservationsIds": [
+      28
+    ]
+  },
+  {
+    "id": 20,
+    "type": "MiniForTwo",
+    "number": "210",
+    "reservationsIds": [
+      29
+    ]
+  },
+  {
+    "id": 21,
+    "type": "VipForTwo",
+    "number": "301",
+    "reservationsIds": [
+      30,
+      32,
+      36
+    ]
+  },
+  {
+    "id": 22,
+    "type": "VipForTwo",
+    "number": "302",
+    "reservationsIds": [
+      31,
+      33,
+      37
+    ]
+  },
+  {
+    "id": 23,
+    "type": "VipForTwo",
+    "number": "303",
+    "reservationsIds": [
+      34,
+      38,
+      39
+    ]
+  },
+  {
+    "id": 24,
+    "type": "VipForTwo",
+    "number": "304",
+    "reservationsIds": [
+      35,
+      40
+    ]
+  },
+  {
+    "id": 25,
+    "type": "VipForTwo",
+    "number": "305",
+    "reservationsIds": []
+  },
+  {
+    "id": 26,
+    "type": "VipForTwo",
+    "number": "306",
+    "reservationsIds": []
+  },
+  {
+    "id": 27,
+    "type": "VipForTwo",
+    "number": "307",
+    "reservationsIds": []
+  },
+  {
+    "id": 28,
+    "type": "VipForTwo",
+    "number": "308",
+    "reservationsIds": []
+  },
+  {
+    "id": 29,
+    "type": "VipForTwo",
+    "number": "309",
+    "reservationsIds": []
+  },
+  {
+    "id": 30,
+    "type": "VipForTwo",
+    "number": "310",
+    "reservationsIds": []
+  },
+  {
+    "id": 31,
+    "type": "VipForFamily",
+    "number": "401",
+    "reservationsIds": [
+      41
+    ]
+  },
+  {
+    "id": 32,
+    "type": "VipForFamily",
+    "number": "402",
+    "reservationsIds": []
+  },
+  {
+    "id": 33,
+    "type": "VipForFriends",
+    "number": "403",
+    "reservationsIds": []
+  },
+  {
+    "id": 34,
+    "type": "VipForFamily",
+    "number": "404",
+    "reservationsIds": []
+  },
+  {
+    "id": 35,
+    "type": "VipForFamily",
+    "number": "405",
+    "reservationsIds": []
+  },
+  {
+    "id": 36,
+    "type": "VipForFamily",
+    "number": "406",
+    "reservationsIds": []
+  },
+  {
+    "id": 37,
+    "type": "VipForFamily",
+    "number": "407",
+    "reservationsIds": []
+  },
+  {
+    "id": 38,
+    "type": "VipForFamily",
+    "number": "408",
+    "reservationsIds": []
+  },
+  {
+    "id": 39,
+    "type": "VipForFamily",
+    "number": "409",
+    "reservationsIds": []
+  },
+  {
+    "id": 40,
+    "type": "VipForFamily",
+    "number": "410",
+    "reservationsIds": []
+  },
+  {
+    "id": 41,
+    "type": "VipForFriends",
+    "number": "501",
+    "reservationsIds": []
+  },
+  {
+    "id": 42,
+    "type": "VipForFriends",
+    "number": "502",
+    "reservationsIds": []
+  },
+  {
+    "id": 43,
+    "type": "VipForFriends",
+    "number": "503",
+    "reservationsIds": []
+  },
+  {
+    "id": 44,
+    "type": "VipForFriends",
+    "number": "504",
+    "reservationsIds": []
+  },
+  {
+    "id": 45,
+    "type": "VipForFriends",
+    "number": "505",
+    "reservationsIds": []
+  },
+  {
+    "id": 46,
+    "type": "VipForFriends",
+    "number": "506",
+    "reservationsIds": []
+  },
+  {
+    "id": 47,
+    "type": "VipForFriends",
+    "number": "507",
+    "reservationsIds": []
+  },
+  {
+    "id": 48,
+    "type": "VipForFriends",
+    "number": "508",
+    "reservationsIds": []
+  },
+  {
+    "id": 49,
+    "type": "VipForFriends",
+    "number": "509",
+    "reservationsIds": []
+  },
+  {
+    "id": 50,
+    "type": "VipForFriends",
+    "number": "510",
+    "reservationsIds": []
+  }
+]

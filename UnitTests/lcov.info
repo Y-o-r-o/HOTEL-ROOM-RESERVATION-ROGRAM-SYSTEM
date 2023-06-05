@@ -1,0 +1,3189 @@
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Mappers\ManualMappers.cs
+FN:8,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO> BusinessLayer.Mappers.ManualMappers::MapToReservationDataDTOs(System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation>,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Room>)
+FNDA:0,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO> BusinessLayer.Mappers.ManualMappers::MapToReservationDataDTOs(System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation>,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Room>)
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+LF:10
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Mappers\MappingProfiles.cs
+FN:8,System.Void BusinessLayer.Mappers.MappingProfiles::.ctor()
+FNDA:31,System.Void BusinessLayer.Mappers.MappingProfiles::.ctor()
+DA:9,31
+DA:10,31
+DA:15,31
+DA:16,31
+DA:17,31
+DA:18,31
+DA:19,31
+DA:20,31
+DA:21,31
+DA:22,31
+DA:23,31
+DA:24,31
+DA:30,31
+DA:31,31
+DA:32,31
+DA:33,31
+DA:34,31
+DA:35,31
+DA:36,31
+DA:37,31
+DA:38,31
+DA:39,31
+DA:44,31
+DA:45,31
+DA:46,31
+LF:25
+LH:25
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Helpers\Constants.cs
+FN:18,System.Void BusinessLayer.Helpers.Constants::.cctor()
+FNDA:1,System.Void BusinessLayer.Helpers.Constants::.cctor()
+DA:19,1
+DA:20,1
+DA:21,1
+DA:22,1
+DA:23,1
+DA:24,1
+DA:25,1
+DA:26,1
+DA:27,1
+DA:28,1
+LF:10
+LH:10
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Helpers\DateHelpers.cs
+FN:5,System.Int32 BusinessLayer.Helpers.DateHelpers::GetCurrentWeekStartDayAsInt(System.DateTime)
+FNDA:0,System.Int32 BusinessLayer.Helpers.DateHelpers::GetCurrentWeekStartDayAsInt(System.DateTime)
+DA:6,0
+DA:7,0
+DA:9,0
+DA:10,0
+FN:12,System.DateTime BusinessLayer.Helpers.DateHelpers::ParseDateOnlyToDateTime(System.DateOnly)
+FNDA:0,System.DateTime BusinessLayer.Helpers.DateHelpers::ParseDateOnlyToDateTime(System.DateOnly)
+DA:13,0
+DA:14,0
+DA:15,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\AdditionalInformationDTO.cs
+FN:8,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_InnerMessage()
+FNDA:0,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_InnerMessage()
+DA:9,0
+FN:14,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_File()
+FNDA:0,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_File()
+DA:15,0
+FN:20,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_MethodName()
+FNDA:0,System.String BusinessLayer.DTOs.AdditionalInformationDTO::get_MethodName()
+DA:21,0
+FN:26,System.Int32 BusinessLayer.DTOs.AdditionalInformationDTO::get_Line()
+FNDA:0,System.Int32 BusinessLayer.DTOs.AdditionalInformationDTO::get_Line()
+DA:27,0
+FN:32,System.Int32 BusinessLayer.DTOs.AdditionalInformationDTO::get_Column()
+FNDA:0,System.Int32 BusinessLayer.DTOs.AdditionalInformationDTO::get_Column()
+DA:33,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\GenericHttpExceptionDTO.cs
+FN:15,System.String BusinessLayer.DTOs.GenericHttpExceptionDTO::get_Message()
+FNDA:0,System.String BusinessLayer.DTOs.GenericHttpExceptionDTO::get_Message()
+DA:16,0
+FN:4,System.Void BusinessLayer.DTOs.GenericHttpExceptionDTO::.ctor(System.Int32,System.String,BusinessLayer.DTOs.AdditionalInformationDTO)
+FNDA:0,System.Void BusinessLayer.DTOs.GenericHttpExceptionDTO::.ctor(System.Int32,System.String,BusinessLayer.DTOs.AdditionalInformationDTO)
+DA:5,0
+DA:6,0
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\HttpExceptionDTO.cs
+FN:8,System.Int32 BusinessLayer.DTOs.HttpExceptionDTO::get_StatusCode()
+FNDA:0,System.Int32 BusinessLayer.DTOs.HttpExceptionDTO::get_StatusCode()
+DA:9,0
+FN:13,BusinessLayer.DTOs.AdditionalInformationDTO BusinessLayer.DTOs.HttpExceptionDTO::get_Details()
+FNDA:0,BusinessLayer.DTOs.AdditionalInformationDTO BusinessLayer.DTOs.HttpExceptionDTO::get_Details()
+DA:14,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\UserDTO.cs
+FN:8,System.Guid BusinessLayer.DTOs.UserDTO::get_Id()
+FNDA:0,System.Guid BusinessLayer.DTOs.UserDTO::get_Id()
+DA:9,0
+FN:14,System.Boolean BusinessLayer.DTOs.UserDTO::get_IsAdmin()
+FNDA:0,System.Boolean BusinessLayer.DTOs.UserDTO::get_IsAdmin()
+DA:15,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\ValidationHttpExeptionDTO.cs
+FN:14,System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> BusinessLayer.DTOs.ValidationHttpExceptionDTO::get_PropertyErrors()
+FNDA:0,System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> BusinessLayer.DTOs.ValidationHttpExceptionDTO::get_PropertyErrors()
+DA:15,0
+FN:4,System.Void BusinessLayer.DTOs.ValidationHttpExceptionDTO::.ctor(System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>,BusinessLayer.DTOs.AdditionalInformationDTO)
+FNDA:0,System.Void BusinessLayer.DTOs.ValidationHttpExceptionDTO::.ctor(System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>>,BusinessLayer.DTOs.AdditionalInformationDTO)
+DA:5,0
+DA:6,0
+DA:7,0
+DA:8,0
+DA:9,0
+DA:10,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\CreateResidentDTO.cs
+FN:11,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_UserId()
+FNDA:15,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_UserId()
+DA:12,15
+FN:18,System.Int32 BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_ReservationId()
+FNDA:9,System.Int32 BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_ReservationId()
+DA:19,9
+FN:25,System.Boolean BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_IsRequired()
+FNDA:4,System.Boolean BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO::get_IsRequired()
+DA:26,4
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\CreateReservationDTO.cs
+FN:13,System.Int32 BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_RoomId()
+FNDA:0,System.Int32 BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_RoomId()
+DA:14,0
+FN:21,System.String BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_Name()
+FNDA:0,System.String BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_Name()
+DA:22,0
+FN:28,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_CreatorId()
+FNDA:0,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_CreatorId()
+DA:29,0
+FN:30,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO> BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_Residents()
+FNDA:0,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO> BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_Residents()
+DA:31,0
+FN:37,System.DateTime BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_StartDate()
+FNDA:0,System.DateTime BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_StartDate()
+DA:38,0
+FN:44,System.DateTime BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_EndDate()
+FNDA:0,System.DateTime BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO::get_EndDate()
+DA:45,0
+LF:6
+LH:0
+BRF:0
+BRH:0
+FNF:6
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\CreateReservationResidentDTO.cs
+FN:11,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO::get_UserId()
+FNDA:0,System.Guid BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO::get_UserId()
+DA:12,0
+FN:18,System.Boolean BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO::get_IsRequired()
+FNDA:0,System.Boolean BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO::get_IsRequired()
+DA:19,0
+LF:2
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\CreateRoomDTO.cs
+FN:14,System.String BusinessLayer.DTOs.BookingDTOs.CreateRoomDTO::get_Name()
+FNDA:13,System.String BusinessLayer.DTOs.BookingDTOs.CreateRoomDTO::get_Name()
+DA:15,13
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\EditResidentDTO.cs
+FN:11,System.Boolean BusinessLayer.DTOs.BookingDTOs.EditResidentDTO::get_IsRequired()
+FNDA:3,System.Boolean BusinessLayer.DTOs.BookingDTOs.EditResidentDTO::get_IsRequired()
+DA:12,3
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\EditReservationDTO.cs
+FN:14,System.String BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_Name()
+FNDA:0,System.String BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_Name()
+DA:15,0
+FN:16,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_Residents()
+FNDA:0,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_Residents()
+DA:17,0
+FN:23,System.DateTime BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_StartDate()
+FNDA:0,System.DateTime BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_StartDate()
+DA:24,0
+FN:30,System.DateTime BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_EndDate()
+FNDA:0,System.DateTime BusinessLayer.DTOs.BookingDTOs.EditReservationDTO::get_EndDate()
+DA:31,0
+LF:4
+LH:0
+BRF:0
+BRH:0
+FNF:4
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\EditRoomDTO.cs
+FN:14,System.String BusinessLayer.DTOs.BookingDTOs.EditRoomDTO::get_Name()
+FNDA:20,System.String BusinessLayer.DTOs.BookingDTOs.EditRoomDTO::get_Name()
+DA:15,20
+LF:1
+LH:1
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\ResidentDTO.cs
+FN:8,System.Int32 BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_Id()
+FNDA:7,System.Int32 BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_Id()
+DA:9,7
+FN:14,System.Guid BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_UserId()
+FNDA:7,System.Guid BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_UserId()
+DA:15,7
+FN:20,System.Int32 BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_ReservationId()
+FNDA:7,System.Int32 BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_ReservationId()
+DA:21,7
+FN:26,System.Nullable`1<System.Boolean> BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_IsRequired()
+FNDA:7,System.Nullable`1<System.Boolean> BusinessLayer.DTOs.BookingDTOs.ResidentDTO::get_IsRequired()
+DA:27,7
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\ReservationDataDTO.cs
+FN:13,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Name()
+FNDA:0,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Name()
+DA:14,0
+FN:19,System.Guid BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_CreatorId()
+FNDA:0,System.Guid BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_CreatorId()
+DA:20,0
+FN:25,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_RoomName()
+FNDA:0,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_RoomName()
+DA:26,0
+FN:31,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Date()
+FNDA:0,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Date()
+DA:32,0
+FN:37,System.TimeSpan BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Duration()
+FNDA:0,System.TimeSpan BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO::get_Duration()
+DA:38,0
+LF:5
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\ReservationDTO.cs
+FN:11,System.Int32 BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Id()
+FNDA:3,System.Int32 BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Id()
+DA:12,3
+FN:18,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Name()
+FNDA:3,System.String BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Name()
+DA:19,3
+FN:24,System.Guid BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_CreatorId()
+FNDA:3,System.Guid BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_CreatorId()
+DA:25,3
+FN:26,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Residents()
+FNDA:3,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_Residents()
+DA:27,3
+FN:32,System.DateTime BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_StartDate()
+FNDA:3,System.DateTime BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_StartDate()
+DA:33,3
+FN:38,System.DateTime BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_EndDate()
+FNDA:3,System.DateTime BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_EndDate()
+DA:39,3
+FN:44,System.Int32 BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_RoomId()
+FNDA:3,System.Int32 BusinessLayer.DTOs.BookingDTOs.ReservationDTO::get_RoomId()
+DA:45,3
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DTOs\BookingDTOs\RoomDTO .cs
+FN:11,System.Int32 BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Id()
+FNDA:7,System.Int32 BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Id()
+DA:12,7
+FN:18,System.String BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Name()
+FNDA:7,System.String BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Name()
+DA:19,7
+FN:20,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ReservationDTO> BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Reservations()
+FNDA:7,System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ReservationDTO> BusinessLayer.DTOs.BookingDTOs.RoomDTO::get_Reservations()
+DA:21,7
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\DependencyInjections\BusinessServicesExtensions.cs
+FN:13,Microsoft.Extensions.DependencyInjection.IServiceCollection BusinessLayer.DependencyInjections.BusinessServicesExtensions::AddBusinessServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection BusinessLayer.DependencyInjections.BusinessServicesExtensions::AddBusinessServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:14,0
+DA:15,0
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+LF:9
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Configuration\PropertyValidationConfiguration.cs
+FN:8,System.String BusinessLayer.Configuration.PropertyValidationConfiguration::get_LengthErrorMessage()
+FNDA:11,System.String BusinessLayer.Configuration.PropertyValidationConfiguration::get_LengthErrorMessage()
+DA:9,11
+FN:10,System.Void BusinessLayer.Configuration.PropertyValidationConfiguration::.ctor(System.String,System.String,System.Int32,System.Int32)
+FNDA:7,System.Void BusinessLayer.Configuration.PropertyValidationConfiguration::.ctor(System.String,System.String,System.Int32,System.Int32)
+DA:11,7
+DA:12,7
+DA:13,7
+DA:14,7
+DA:15,7
+DA:16,7
+DA:17,7
+LF:8
+LH:8
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\BusinessServices\DatetimeProviderService.cs
+FN:4,System.DateTime BusinessLayer.BusinessServices.DateTimeProviderServices::DateTimeNow()
+FNDA:0,System.DateTime BusinessLayer.BusinessServices.DateTimeProviderServices::DateTimeNow()
+DA:5,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\BusinessServices\BookingServices\ResidentServices.cs
+FN:16,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository,RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository,AutoMapper.IMapper)
+FNDA:17,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository,RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository,AutoMapper.IMapper)
+DA:17,17
+DA:18,17
+DA:19,17
+DA:20,17
+DA:21,17
+DA:22,17
+DA:23,17
+FN:35,System.Boolean BusinessLayer.BusinessServices.BookingServices.ResidentServices/<>c__DisplayClass4_0::<CreateResident>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+FNDA:12,System.Boolean BusinessLayer.BusinessServices.BookingServices.ResidentServices/<>c__DisplayClass4_0::<CreateResident>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+DA:36,12
+FN:25,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<CreateResident>d__4::MoveNext()
+FNDA:3,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<CreateResident>d__4::MoveNext()
+DA:26,3
+DA:27,3
+DA:29,3
+DA:30,1
+DA:31,1
+DA:34,2
+DA:37,1
+DA:38,1
+DA:41,1
+DA:42,1
+BRDA:29,227,0,1
+BRDA:29,227,1,2
+BRDA:36,474,0,1
+BRDA:36,474,1,1
+FN:44,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<DeleteResidentById>d__5::MoveNext()
+FNDA:4,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<DeleteResidentById>d__5::MoveNext()
+DA:45,4
+DA:46,4
+DA:48,4
+DA:49,2
+DA:50,2
+DA:53,2
+DA:54,2
+BRDA:48,173,0,2
+BRDA:48,173,1,2
+FN:56,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<EditResident>d__6::MoveNext()
+FNDA:2,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<EditResident>d__6::MoveNext()
+DA:57,2
+DA:58,2
+DA:60,2
+DA:61,1
+DA:62,1
+DA:65,1
+DA:67,1
+DA:68,1
+BRDA:60,173,0,1
+BRDA:60,173,1,1
+FN:70,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<GetAllResidentsByReservationId>d__7::MoveNext()
+FNDA:4,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<GetAllResidentsByReservationId>d__7::MoveNext()
+DA:71,4
+DA:72,4
+DA:74,4
+DA:75,2
+DA:76,2
+DA:79,2
+DA:80,2
+BRDA:74,281,0,4
+BRDA:74,281,1,0
+BRDA:74,304,0,2
+BRDA:74,304,1,2
+FN:82,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<GetResidentById>d__8::MoveNext()
+FNDA:4,System.Void BusinessLayer.BusinessServices.BookingServices.ResidentServices/<GetResidentById>d__8::MoveNext()
+DA:83,4
+DA:84,4
+DA:86,4
+DA:87,2
+DA:88,2
+DA:91,2
+DA:92,2
+BRDA:86,164,0,2
+BRDA:86,164,1,2
+LF:47
+LH:47
+BRF:14
+BRH:13
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\BusinessServices\BookingServices\ReservationServices.cs
+FN:261,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices::CheckUserPermissions(RepositoryLayer.Databases.Entities.BookingEntities.Reservation,BusinessLayer.DTOs.UserDTO)
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices::CheckUserPermissions(RepositoryLayer.Databases.Entities.BookingEntities.Reservation,BusinessLayer.DTOs.UserDTO)
+DA:262,0
+DA:263,0
+DA:264,0
+DA:265,0
+DA:268,0
+DA:269,0
+BRDA:263,18,0,0
+BRDA:263,18,1,0
+BRDA:263,31,0,0
+BRDA:263,31,1,0
+FN:15,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository,RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository,RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository,BusinessLayer.BusinessServices.IDateTimeProviderServices,AutoMapper.IMapper)
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository,RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository,RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository,BusinessLayer.BusinessServices.IDateTimeProviderServices,AutoMapper.IMapper)
+DA:16,0
+DA:17,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+FN:145,System.Guid BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c::<GetMonthReservationsSortedByUserAsync>b__15_1(BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO)
+FNDA:0,System.Guid BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c::<GetMonthReservationsSortedByUserAsync>b__15_1(BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO)
+DA:146,0
+FN:213,System.Guid BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c::<ValidateReservation>b__16_1(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+FNDA:0,System.Guid BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c::<ValidateReservation>b__16_1(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+DA:214,0
+FN:208,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass16_0::<ValidateReservation>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+FNDA:0,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass16_0::<ValidateReservation>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Resident)
+DA:209,0
+FN:229,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass17_0::<IsUserExceedReservationLimit>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+FNDA:0,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass17_0::<IsUserExceedReservationLimit>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+DA:230,0
+BRDA:230,17,0,0
+BRDA:230,17,1,0
+FN:249,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+FNDA:0,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+DA:250,0
+FN:250,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+FNDA:0,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+DA:251,0
+FN:252,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__2(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+FNDA:0,System.Boolean BusinessLayer.BusinessServices.BookingServices.ReservationServices/<>c__DisplayClass18_0::<IsReservationCollideWithExistingOnes>b__2(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+DA:253,0
+BRDA:253,22,0,0
+BRDA:253,22,1,0
+FN:35,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<CreateReservationAsync>d__8::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<CreateReservationAsync>d__8::MoveNext()
+DA:36,0
+DA:37,0
+DA:38,0
+DA:40,0
+DA:41,0
+FN:61,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<DeleteReservationAsync>d__10::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<DeleteReservationAsync>d__10::MoveNext()
+DA:62,0
+DA:63,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:70,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:78,0
+DA:79,0
+BRDA:65,229,0,0
+BRDA:65,229,1,0
+BRDA:72,334,0,0
+BRDA:72,334,1,0
+BRDA:72,359,0,0
+BRDA:72,359,1,0
+FN:43,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<EditReservationAsync>d__9::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<EditReservationAsync>d__9::MoveNext()
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:52,0
+DA:54,0
+DA:56,0
+DA:58,0
+DA:59,0
+BRDA:47,187,0,0
+BRDA:47,187,1,0
+FN:125,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsAsync>d__14::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsAsync>d__14::MoveNext()
+DA:126,0
+DA:127,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:134,0
+DA:135,0
+BRDA:129,151,0,0
+BRDA:129,151,1,0
+BRDA:129,174,0,0
+BRDA:129,174,1,0
+FN:81,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsForDateAsync>d__11::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsForDateAsync>d__11::MoveNext()
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:88,0
+DA:89,0
+DA:91,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:98,0
+DA:99,0
+BRDA:83,37,0,0
+BRDA:83,37,1,0
+BRDA:93,271,0,0
+BRDA:93,271,1,0
+FN:101,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsForRoomAsync>d__12::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetAllReservationsForRoomAsync>d__12::MoveNext()
+DA:102,0
+DA:103,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:110,0
+DA:111,0
+BRDA:105,169,0,0
+BRDA:105,169,1,0
+FN:137,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetMonthReservationsSortedByUserAsync>d__15::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetMonthReservationsSortedByUserAsync>d__15::MoveNext()
+DA:138,0
+DA:139,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:147,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:154,0
+DA:155,0
+BRDA:141,439,0,0
+BRDA:141,439,1,0
+BRDA:141,462,0,0
+BRDA:141,462,1,0
+BRDA:149,795,1,0
+BRDA:149,795,0,0
+FN:113,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetReservationByIdAsync>d__13::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetReservationByIdAsync>d__13::MoveNext()
+DA:114,0
+DA:115,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:122,0
+DA:123,0
+BRDA:117,164,0,0
+BRDA:117,164,1,0
+FN:271,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetReservationsData>d__20::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<GetReservationsData>d__20::MoveNext()
+DA:272,0
+DA:273,0
+DA:275,0
+DA:276,0
+FN:238,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<IsReservationCollideWithExistingOnes>d__18::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<IsReservationCollideWithExistingOnes>d__18::MoveNext()
+DA:239,0
+DA:240,0
+DA:241,0
+DA:243,0
+DA:245,0
+DA:246,0
+DA:247,0
+DA:254,0
+DA:255,0
+DA:258,0
+DA:259,0
+BRDA:245,272,0,0
+BRDA:245,272,1,0
+BRDA:245,295,0,0
+BRDA:245,295,1,0
+BRDA:253,405,0,0
+BRDA:253,405,1,0
+FN:222,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<IsUserExceedReservationLimit>d__17::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<IsUserExceedReservationLimit>d__17::MoveNext()
+DA:223,0
+DA:224,0
+DA:225,0
+DA:227,0
+DA:229,0
+DA:231,0
+DA:232,0
+DA:235,0
+DA:236,0
+BRDA:229,459,0,0
+BRDA:229,459,1,0
+FN:157,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<ValidateReservation>d__16::MoveNext()
+FNDA:0,System.Void BusinessLayer.BusinessServices.BookingServices.ReservationServices/<ValidateReservation>d__16::MoveNext()
+DA:158,0
+DA:159,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:182,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:210,0
+DA:211,0
+DA:212,0
+DA:215,0
+DA:216,0
+DA:217,0
+DA:219,0
+DA:220,0
+BRDA:161,93,0,0
+BRDA:161,119,0,0
+BRDA:161,146,0,0
+BRDA:161,93,1,0
+BRDA:161,119,1,0
+BRDA:161,146,1,0
+BRDA:161,180,0,0
+BRDA:161,180,1,0
+BRDA:167,240,0,0
+BRDA:167,240,1,0
+BRDA:172,302,0,0
+BRDA:172,302,1,0
+BRDA:177,380,0,0
+BRDA:177,380,1,0
+BRDA:182,520,0,0
+BRDA:182,520,1,0
+BRDA:187,628,0,0
+BRDA:187,628,1,0
+BRDA:187,685,0,0
+BRDA:187,685,1,0
+BRDA:193,837,0,0
+BRDA:193,837,1,0
+BRDA:198,989,0,0
+BRDA:198,989,1,0
+BRDA:203,1033,0,0
+BRDA:203,1033,1,0
+BRDA:209,1100,0,0
+BRDA:209,1100,1,0
+BRDA:214,1213,0,0
+BRDA:214,1213,1,0
+LF:169
+LH:0
+BRF:72
+BRH:0
+FNF:21
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\BusinessServices\BookingServices\RoomServices.cs
+FN:51,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices::<DeleteRoomAsync>b__5_0(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+FNDA:5,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices::<DeleteRoomAsync>b__5_0(RepositoryLayer.Databases.Entities.BookingEntities.Reservation)
+DA:52,5
+FN:16,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository,BusinessLayer.BusinessServices.IDateTimeProviderServices,AutoMapper.IMapper)
+FNDA:14,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices::.ctor(RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository,BusinessLayer.BusinessServices.IDateTimeProviderServices,AutoMapper.IMapper)
+DA:17,14
+DA:18,14
+DA:19,14
+DA:20,14
+DA:21,14
+DA:22,14
+DA:23,14
+FN:63,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+FNDA:14,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__1(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+DA:64,14
+FN:68,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__2(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+FNDA:12,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__2(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+DA:69,12
+FN:73,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+FNDA:7,System.Boolean BusinessLayer.BusinessServices.BookingServices.RoomServices/<>c__DisplayClass6_0::<EditRoomAsync>b__0(RepositoryLayer.Databases.Entities.BookingEntities.Room)
+DA:74,7
+FN:25,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<CreateRoomAsync>d__4::MoveNext()
+FNDA:2,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<CreateRoomAsync>d__4::MoveNext()
+DA:26,2
+DA:27,2
+DA:29,2
+DA:30,1
+DA:31,1
+DA:34,1
+DA:35,1
+BRDA:29,312,0,2
+BRDA:29,312,1,0
+BRDA:29,332,0,1
+BRDA:29,332,1,1
+FN:37,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<DeleteRoomAsync>d__5::MoveNext()
+FNDA:4,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<DeleteRoomAsync>d__5::MoveNext()
+DA:38,4
+DA:39,4
+DA:41,4
+DA:42,1
+DA:43,1
+DA:46,3
+DA:47,0
+DA:48,0
+DA:49,0
+DA:53,1
+DA:54,1
+DA:57,2
+DA:58,2
+BRDA:41,187,0,1
+BRDA:41,187,1,3
+BRDA:46,276,0,0
+BRDA:46,276,1,3
+BRDA:52,436,0,1
+BRDA:52,436,1,2
+FN:60,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<EditRoomAsync>d__6::MoveNext()
+FNDA:4,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<EditRoomAsync>d__6::MoveNext()
+DA:61,4
+DA:62,4
+DA:65,1
+DA:66,1
+DA:70,2
+DA:71,2
+DA:75,1
+DA:77,1
+DA:78,1
+BRDA:64,235,0,1
+BRDA:64,235,1,3
+BRDA:69,343,0,2
+BRDA:69,343,1,1
+FN:80,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<GetAllRoomsAsync>d__7::MoveNext()
+FNDA:2,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<GetAllRoomsAsync>d__7::MoveNext()
+DA:81,2
+DA:82,2
+DA:84,2
+DA:85,1
+DA:86,1
+DA:89,1
+DA:90,1
+BRDA:84,159,0,1
+BRDA:84,159,1,1
+FN:92,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<GetRoomByIdAsync>d__8::MoveNext()
+FNDA:2,System.Void BusinessLayer.BusinessServices.BookingServices.RoomServices/<GetRoomByIdAsync>d__8::MoveNext()
+DA:93,2
+DA:94,2
+DA:96,2
+DA:97,1
+DA:98,1
+DA:101,1
+DA:102,1
+BRDA:96,164,0,1
+BRDA:96,164,1,1
+LF:54
+LH:51
+BRF:18
+BRH:16
+FNF:10
+FNH:10
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\BusinessLayer\Attributes\Validate.cs
+FN:17,System.ComponentModel.DataAnnotations.ValidationResult BusinessLayer.BusinessServices.Attributes.Validate::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+FNDA:52,System.ComponentModel.DataAnnotations.ValidationResult BusinessLayer.BusinessServices.Attributes.Validate::IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)
+DA:18,52
+DA:19,52
+DA:20,0
+DA:21,0
+DA:24,52
+DA:26,52
+DA:27,0
+DA:28,0
+DA:31,52
+DA:33,52
+DA:34,0
+DA:35,0
+DA:36,52
+DA:38,52
+DA:39,11
+DA:40,11
+DA:41,11
+DA:43,52
+DA:44,26
+DA:45,26
+DA:46,26
+DA:48,52
+DA:50,25
+DA:51,25
+BRDA:19,7,0,0
+BRDA:19,7,1,52
+BRDA:26,41,0,0
+BRDA:26,41,1,52
+BRDA:33,91,0,0
+BRDA:33,91,1,52
+BRDA:38,175,0,42
+BRDA:38,175,1,10
+BRDA:38,198,0,11
+BRDA:38,198,1,52
+BRDA:43,313,0,26
+BRDA:43,313,1,52
+FN:12,System.Void BusinessLayer.BusinessServices.Attributes.Validate::.ctor()
+FNDA:52,System.Void BusinessLayer.BusinessServices.Attributes.Validate::.ctor()
+DA:13,52
+DA:14,52
+DA:15,52
+LF:27
+LH:21
+BRF:12
+BRH:9
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\Core\HttpResponseException.cs
+FN:17,System.Net.HttpStatusCode Core.HttpResponseException::get_StatusCode()
+FNDA:0,System.Net.HttpStatusCode Core.HttpResponseException::get_StatusCode()
+DA:18,0
+FN:19,System.String Core.HttpResponseException::get_Message()
+FNDA:12,System.String Core.HttpResponseException::get_Message()
+DA:20,12
+BRDA:20,6,0,12
+BRDA:20,6,1,0
+FN:6,System.Void Core.HttpResponseException::.ctor(System.Net.HttpStatusCode,System.String)
+FNDA:12,System.Void Core.HttpResponseException::.ctor(System.Net.HttpStatusCode,System.String)
+DA:7,12
+DA:11,12
+DA:12,12
+DA:13,12
+DA:14,12
+DA:15,12
+DA:16,12
+LF:9
+LH:8
+BRF:2
+BRH:1
+FNF:3
+FNH:2
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\Core\ValidationExceptions.cs
+FN:6,System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> Core.ValidationException::get_VariableErrors()
+FNDA:64,System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.IEnumerable`1<System.String>> Core.ValidationException::get_VariableErrors()
+DA:7,64
+FN:8,System.Net.HttpStatusCode Core.ValidationException::get_StatusCode()
+FNDA:0,System.Net.HttpStatusCode Core.ValidationException::get_StatusCode()
+DA:9,0
+FN:25,System.Void Core.ValidationException::ThrowIfPropertyInvalid(System.String,System.Collections.Generic.IReadOnlyCollection`1<System.String>)
+FNDA:52,System.Void Core.ValidationException::ThrowIfPropertyInvalid(System.String,System.Collections.Generic.IReadOnlyCollection`1<System.String>)
+DA:26,52
+DA:27,52
+DA:28,27
+DA:29,27
+DA:31,25
+BRDA:27,2,0,52
+BRDA:27,2,1,0
+BRDA:27,18,0,27
+BRDA:27,18,1,25
+FN:10,System.Void Core.ValidationException::.ctor(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+FNDA:27,System.Void Core.ValidationException::.ctor(System.String,System.Collections.Generic.IEnumerable`1<System.String>)
+DA:11,27
+DA:12,27
+DA:13,27
+DA:15,27
+DA:16,27
+FN:17,System.Void Core.ValidationException::.ctor(System.String,System.String)
+FNDA:5,System.Void Core.ValidationException::.ctor(System.String,System.String)
+DA:18,5
+DA:19,5
+DA:20,5
+DA:22,5
+DA:23,5
+LF:17
+LH:16
+BRF:4
+BRH:3
+FNF:5
+FNH:4
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\Core\Extensions\StackTraceExtensions.cs
+FN:10,System.Diagnostics.StackFrame Core.Extensions.StackTraceExtensions::GeFirstFrame(System.Diagnostics.StackTrace)
+FNDA:0,System.Diagnostics.StackFrame Core.Extensions.StackTraceExtensions::GeFirstFrame(System.Diagnostics.StackTrace)
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:16,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+BRDA:12,171,1,0
+BRDA:18,123,0,0
+BRDA:18,123,1,0
+BRDA:18,154,0,0
+BRDA:18,154,1,0
+BRDA:12,171,0,0
+FN:7,System.Void Core.Extensions.StackTraceExtensions::.cctor()
+FNDA:0,System.Void Core.Extensions.StackTraceExtensions::.cctor()
+DA:8,0
+LF:12
+LH:0
+BRF:6
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Repositories\BookingRepositories\ResidentRepository.cs
+FN:12,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:18,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<CreateResidentAsync>d__2::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<CreateResidentAsync>d__2::MoveNext()
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+FN:27,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<EditResidentAsync>d__3::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<EditResidentAsync>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+FN:44,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<GetResidentByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<GetResidentByIdAsync>d__5::MoveNext()
+DA:45,0
+DA:46,0
+DA:47,0
+FN:34,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<GetResidentsAsync>d__4::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<GetResidentsAsync>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:41,0
+DA:42,0
+BRDA:36,37,0,0
+BRDA:36,37,1,0
+FN:49,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<RemoveResidentAsync>d__6::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<RemoveResidentAsync>d__6::MoveNext()
+DA:50,0
+DA:51,0
+DA:53,0
+DA:54,0
+FN:56,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<RemoveResidentsAsync>d__7::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ResidentRepository/<RemoveResidentsAsync>d__7::MoveNext()
+DA:57,0
+DA:58,0
+DA:60,0
+DA:61,0
+LF:30
+LH:0
+BRF:2
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Repositories\BookingRepositories\ReservationRepository.cs
+FN:12,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:18,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<CreateReservationAsync>d__2::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<CreateReservationAsync>d__2::MoveNext()
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+FN:34,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<DeleteReservationAsync>d__4::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<DeleteReservationAsync>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:38,0
+DA:39,0
+FN:27,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<EditReservationAsync>d__3::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<EditReservationAsync>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+FN:68,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsAsync>d__9::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsAsync>d__9::MoveNext()
+DA:69,0
+DA:70,0
+DA:71,0
+FN:41,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsForDateAsync>d__5::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsForDateAsync>d__5::MoveNext()
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+FN:47,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsForRoomAsync>d__6::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetAllReservationsForRoomAsync>d__6::MoveNext()
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+FN:53,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetReservationByIdAsync>d__7::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetReservationByIdAsync>d__7::MoveNext()
+DA:54,0
+DA:55,0
+DA:56,0
+FN:58,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetReservationsAsync>d__8::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.ReservationRepository/<GetReservationsAsync>d__8::MoveNext()
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:65,0
+DA:66,0
+BRDA:60,40,0,0
+BRDA:60,40,1,0
+LF:37
+LH:0
+BRF:2
+BRH:0
+FNF:9
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Repositories\BookingRepositories\RoomRepository.cs
+FN:12,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository::.ctor(RepositoryLayer.Databases.Configuration.BookingDataContext)
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:18,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<CreateRoomAsync>d__2::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<CreateRoomAsync>d__2::MoveNext()
+DA:19,0
+DA:20,0
+DA:22,0
+DA:24,0
+DA:25,0
+FN:34,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<DeleteRoomAsync>d__4::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<DeleteRoomAsync>d__4::MoveNext()
+DA:35,0
+DA:36,0
+DA:38,0
+DA:39,0
+FN:27,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<EditRoomAsync>d__3::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<EditRoomAsync>d__3::MoveNext()
+DA:28,0
+DA:29,0
+DA:31,0
+DA:32,0
+FN:41,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomByIdAsync>d__5::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomByIdAsync>d__5::MoveNext()
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+FN:47,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomsAsync>d__6::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomsAsync>d__6::MoveNext()
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:55,0
+DA:56,0
+DA:57,0
+BRDA:49,40,0,0
+BRDA:49,40,1,0
+FN:59,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomsDataAsync>d__7::MoveNext()
+FNDA:0,System.Void RepositoryLayer.Repositories.BookingRepositories.RoomRepository/<GetRoomsDataAsync>d__7::MoveNext()
+DA:60,0
+DA:61,0
+DA:62,0
+LF:32
+LH:0
+BRF:2
+BRH:0
+FNF:7
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\DependencyInjections\RepositoryServicesExtensions.cs
+FN:12,Microsoft.Extensions.DependencyInjection.IServiceCollection RepositoryLayer.DependencyInjections.RepositoryServicesExtensions::AddRepositoryServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+FNDA:0,Microsoft.Extensions.DependencyInjection.IServiceCollection RepositoryLayer.DependencyInjections.RepositoryServicesExtensions::AddRepositoryServices(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+DA:13,0
+DA:14,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:20,0
+DA:21,0
+LF:7
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Seeds\BookingDBSeed.cs
+FN:7,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Seeds.BookingDBSeed::ReservationsDataSeed()
+FNDA:0,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Seeds.BookingDBSeed::ReservationsDataSeed()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+FN:51,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> RepositoryLayer.Databases.Seeds.BookingDBSeed::RoomsDataSeed()
+FNDA:0,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> RepositoryLayer.Databases.Seeds.BookingDBSeed::RoomsDataSeed()
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+FN:79,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Seeds.BookingDBSeed::ResidentsDataSeed()
+FNDA:0,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Seeds.BookingDBSeed::ResidentsDataSeed()
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+LF:98
+LH:0
+BRF:0
+BRH:0
+FNF:3
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Migrations\20221005082753_BookingMigration.cs
+FN:9,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+FN:112,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+FNDA:0,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+DA:113,0
+DA:114,0
+DA:115,0
+DA:117,0
+DA:118,0
+DA:120,0
+DA:121,0
+DA:122,0
+LF:102
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Migrations\20221005082753_BookingMigration.Designer.cs
+FN:18,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void RepositoryLayer.Databases.Migrations.BookingMigration::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:19,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:25,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:143,0
+DA:144,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:182,0
+DA:183,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:191,0
+DA:192,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:200,0
+DA:201,0
+DA:203,0
+DA:204,0
+DA:205,0
+DA:206,0
+DA:208,0
+DA:209,0
+DA:210,0
+DA:211,0
+DA:213,0
+LF:185
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Migrations\BookingDataContextModelSnapshot.cs
+FN:16,System.Void RepositoryLayer.Databases.Migrations.BookingDataContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void RepositoryLayer.Databases.Migrations.BookingDataContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:17,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:23,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+DA:99,0
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+DA:106,0
+DA:107,0
+DA:108,0
+DA:109,0
+DA:110,0
+DA:111,0
+DA:112,0
+DA:113,0
+DA:114,0
+DA:115,0
+DA:116,0
+DA:117,0
+DA:118,0
+DA:119,0
+DA:120,0
+DA:121,0
+DA:122,0
+DA:123,0
+DA:124,0
+DA:125,0
+DA:126,0
+DA:127,0
+DA:128,0
+DA:129,0
+DA:130,0
+DA:131,0
+DA:132,0
+DA:133,0
+DA:134,0
+DA:135,0
+DA:136,0
+DA:137,0
+DA:138,0
+DA:139,0
+DA:140,0
+DA:141,0
+DA:142,0
+DA:144,0
+DA:145,0
+DA:146,0
+DA:147,0
+DA:148,0
+DA:149,0
+DA:150,0
+DA:151,0
+DA:152,0
+DA:153,0
+DA:154,0
+DA:155,0
+DA:156,0
+DA:157,0
+DA:158,0
+DA:159,0
+DA:160,0
+DA:161,0
+DA:162,0
+DA:163,0
+DA:164,0
+DA:165,0
+DA:166,0
+DA:167,0
+DA:168,0
+DA:169,0
+DA:170,0
+DA:171,0
+DA:172,0
+DA:173,0
+DA:174,0
+DA:175,0
+DA:176,0
+DA:177,0
+DA:178,0
+DA:179,0
+DA:180,0
+DA:181,0
+DA:183,0
+DA:184,0
+DA:185,0
+DA:186,0
+DA:187,0
+DA:188,0
+DA:189,0
+DA:190,0
+DA:192,0
+DA:193,0
+DA:194,0
+DA:195,0
+DA:196,0
+DA:197,0
+DA:198,0
+DA:199,0
+DA:201,0
+DA:202,0
+DA:203,0
+DA:204,0
+DA:206,0
+DA:207,0
+DA:208,0
+DA:209,0
+DA:211,0
+LF:185
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Entities\BookingEntities\Resident.cs
+FN:7,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_Id()
+FNDA:430,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_Id()
+DA:8,430
+FN:8,System.Guid RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_UserId()
+FNDA:248,System.Guid RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_UserId()
+DA:9,248
+FN:9,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_ReservationId()
+FNDA:264,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_ReservationId()
+DA:10,264
+FN:10,System.Nullable`1<System.Boolean> RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_IsRequired()
+FNDA:239,System.Nullable`1<System.Boolean> RepositoryLayer.Databases.Entities.BookingEntities.Resident::get_IsRequired()
+DA:11,239
+LF:4
+LH:4
+BRF:0
+BRH:0
+FNF:4
+FNH:4
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Entities\BookingEntities\Reservation.cs
+FN:7,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Id()
+FNDA:285,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Id()
+DA:8,285
+FN:8,System.String RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Name()
+FNDA:264,System.String RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Name()
+DA:9,264
+FN:9,System.Guid RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_CreatorId()
+FNDA:264,System.Guid RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_CreatorId()
+DA:10,264
+FN:10,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Residents()
+FNDA:351,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_Residents()
+DA:11,351
+FN:11,System.DateTime RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_StartDate()
+FNDA:264,System.DateTime RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_StartDate()
+DA:12,264
+FN:12,System.DateTime RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_EndDate()
+FNDA:266,System.DateTime RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_EndDate()
+DA:13,266
+FN:13,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_RoomId()
+FNDA:498,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Reservation::get_RoomId()
+DA:14,498
+LF:7
+LH:7
+BRF:0
+BRH:0
+FNF:7
+FNH:7
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Entities\BookingEntities\Room.cs
+FN:7,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Id()
+FNDA:132,System.Int32 RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Id()
+DA:8,132
+FN:8,System.String RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Name()
+FNDA:103,System.String RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Name()
+DA:9,103
+FN:9,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Reservations()
+FNDA:118,System.Collections.Generic.IEnumerable`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Entities.BookingEntities.Room::get_Reservations()
+DA:10,118
+LF:3
+LH:3
+BRF:0
+BRH:0
+FNF:3
+FNH:3
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\RepositoryLayer\Databases\Configuration\BookingDataContext.cs
+FN:12,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Reservations()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Reservations()
+DA:13,0
+FN:13,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Rooms()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Rooms()
+DA:14,0
+FN:14,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Residents()
+FNDA:0,Microsoft.EntityFrameworkCore.DbSet`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> RepositoryLayer.Databases.Configuration.BookingDataContext::get_Residents()
+DA:15,0
+FN:17,System.Void RepositoryLayer.Databases.Configuration.BookingDataContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+FNDA:0,System.Void RepositoryLayer.Databases.Configuration.BookingDataContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+FN:8,System.Void RepositoryLayer.Databases.Configuration.BookingDataContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<RepositoryLayer.Databases.Configuration.BookingDataContext>)
+FNDA:0,System.Void RepositoryLayer.Databases.Configuration.BookingDataContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<RepositoryLayer.Databases.Configuration.BookingDataContext>)
+DA:9,0
+DA:10,0
+DA:11,0
+LF:11
+LH:0
+BRF:0
+BRH:0
+FNF:5
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs
+FN:3,System.Void AutoGeneratedProgram::Main(System.String[])
+FNDA:0,System.Void AutoGeneratedProgram::Main(System.String[])
+DA:4,0
+LF:1
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\RoomServicesTests.cs
+FN:20,System.Void unittests.BusinessLayerTests.RoomServicesTests::SetUp()
+FNDA:14,System.Void unittests.BusinessLayerTests.RoomServicesTests::SetUp()
+DA:21,14
+DA:22,14
+DA:24,28
+DA:25,14
+DA:27,14
+DA:28,14
+DA:29,14
+FN:31,BusinessLayer.BusinessServices.BookingServices.RoomServices unittests.BusinessLayerTests.RoomServicesTests::InitializeRoomServices()
+FNDA:14,BusinessLayer.BusinessServices.BookingServices.RoomServices unittests.BusinessLayerTests.RoomServicesTests::InitializeRoomServices()
+DA:32,14
+DA:33,14
+DA:34,14
+DA:35,14
+DA:36,14
+DA:37,14
+DA:38,14
+FN:144,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c::<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>b__10_1(System.String)
+FNDA:2,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c::<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>b__10_1(System.String)
+DA:145,2
+FN:140,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass10_0::<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>b__0()
+FNDA:2,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass10_0::<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>b__0()
+DA:141,2
+FN:162,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass11_0::<EditRoomAsync_GetExistingRoomsByPredicateNull_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass11_0::<EditRoomAsync_GetExistingRoomsByPredicateNull_DoesntThrow>b__0()
+DA:163,2
+FN:182,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass12_0::<EditRoomAsync_GetRoomWithNonExistingRoomId_ThrowNotFound>b__0()
+FNDA:2,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass12_0::<EditRoomAsync_GetRoomWithNonExistingRoomId_ThrowNotFound>b__0()
+DA:183,2
+FN:204,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass13_0::<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>b__0()
+FNDA:4,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass13_0::<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>b__0()
+DA:205,4
+FN:208,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass13_0::<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>b__1(System.String)
+FNDA:4,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass13_0::<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>b__1(System.String)
+DA:209,4
+FN:222,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO>> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass14_0::<GetAllRoomsAsync_GetRoomWithExistingName_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO>> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass14_0::<GetAllRoomsAsync_GetRoomWithExistingName_DoesntThrow>b__0()
+DA:223,2
+FN:238,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO>> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass15_0::<GetAllRoomsAsync_RepositoryReturnsNull_ThrowsNotfound>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO>> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass15_0::<GetAllRoomsAsync_RepositoryReturnsNull_ThrowsNotfound>b__0()
+DA:239,2
+FN:255,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass16_0::<GetRoomByIdAsync_GetRoomByIdAsync_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass16_0::<GetRoomByIdAsync_GetRoomByIdAsync_DoesntThrow>b__0()
+DA:256,2
+FN:272,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass17_0::<GetRoomByIdAsync_GetRoomByIdDoesntExist_ThrowNotFound>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.RoomDTO> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass17_0::<GetRoomByIdAsync_GetRoomByIdDoesntExist_ThrowNotFound>b__0()
+DA:273,2
+FN:55,System.Threading.Tasks.Task`1<System.Int32> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass6_0::<CreateRoomAsync_GiveNonExistingRoomName_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Int32> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass6_0::<CreateRoomAsync_GiveNonExistingRoomName_DoesntThrow>b__0()
+DA:56,2
+FN:77,System.Threading.Tasks.Task`1<System.Int32> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass7_0::<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Int32> unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass7_0::<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>b__0()
+DA:78,2
+FN:81,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass7_0::<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>b__1(System.String)
+FNDA:2,System.Boolean unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass7_0::<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>b__1(System.String)
+DA:82,2
+FN:101,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass8_0::<DeleteRoomAsync_GiveExistingRoomId_DoesntThrow>b__0()
+FNDA:4,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass8_0::<DeleteRoomAsync_GiveExistingRoomId_DoesntThrow>b__0()
+DA:102,4
+FN:119,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass9_0::<DeleteRoomAsync_GiveNonExistingRoomId_ThrowRoomNotFound>b__0()
+FNDA:2,System.Threading.Tasks.Task unittests.BusinessLayerTests.RoomServicesTests/<>c__DisplayClass9_0::<DeleteRoomAsync_GiveNonExistingRoomId_ThrowRoomNotFound>b__0()
+DA:120,2
+FN:64,System.Void unittests.BusinessLayerTests.RoomServicesTests/<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>d__7::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<CreateRoomAsync_GiveExistingRoomName_ThrowRoomAlreadyExists>d__7::MoveNext()
+DA:65,1
+DA:67,1
+DA:69,1
+DA:71,1
+DA:72,1
+DA:73,1
+DA:75,1
+DA:81,1
+DA:83,1
+DA:84,1
+FN:42,System.Void unittests.BusinessLayerTests.RoomServicesTests/<CreateRoomAsync_GiveNonExistingRoomName_DoesntThrow>d__6::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<CreateRoomAsync_GiveNonExistingRoomName_DoesntThrow>d__6::MoveNext()
+DA:43,1
+DA:45,1
+DA:47,1
+DA:49,1
+DA:50,1
+DA:51,1
+DA:53,1
+DA:59,1
+DA:60,1
+FN:128,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>d__10::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveExistingRoomIdWithValidReservation_ThrowCantDeleteRoomWithReservations>d__10::MoveNext()
+DA:129,1
+DA:131,1
+DA:132,1
+DA:134,1
+DA:135,1
+DA:136,1
+DA:138,1
+DA:144,1
+DA:146,1
+DA:147,1
+FN:89,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveExistingRoomId_DoesntThrow>d__8::MoveNext()
+FNDA:2,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveExistingRoomId_DoesntThrow>d__8::MoveNext()
+DA:90,2
+DA:92,2
+DA:93,2
+DA:95,2
+DA:96,2
+DA:97,2
+DA:99,2
+DA:105,2
+DA:106,2
+FN:110,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveNonExistingRoomId_ThrowRoomNotFound>d__9::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<DeleteRoomAsync_GiveNonExistingRoomId_ThrowRoomNotFound>d__9::MoveNext()
+DA:111,1
+DA:113,1
+DA:114,1
+DA:115,1
+DA:117,1
+DA:123,1
+DA:124,1
+FN:151,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetExistingRoomsByPredicateNull_DoesntThrow>d__11::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetExistingRoomsByPredicateNull_DoesntThrow>d__11::MoveNext()
+DA:152,1
+DA:154,1
+DA:156,1
+DA:157,1
+DA:158,1
+DA:160,1
+DA:166,1
+DA:167,1
+FN:192,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>d__13::MoveNext()
+FNDA:2,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetRoomWithExistingName_ThrowBadRequest>d__13::MoveNext()
+DA:193,2
+DA:195,2
+DA:196,2
+DA:198,2
+DA:199,2
+DA:200,2
+DA:202,2
+DA:208,2
+DA:210,2
+DA:211,2
+FN:171,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetRoomWithNonExistingRoomId_ThrowNotFound>d__12::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<EditRoomAsync_GetRoomWithNonExistingRoomId_ThrowNotFound>d__12::MoveNext()
+DA:172,1
+DA:174,1
+DA:176,1
+DA:177,1
+DA:178,1
+DA:180,1
+DA:186,1
+DA:187,1
+FN:214,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetAllRoomsAsync_GetRoomWithExistingName_DoesntThrow>d__14::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetAllRoomsAsync_GetRoomWithExistingName_DoesntThrow>d__14::MoveNext()
+DA:215,1
+DA:217,1
+DA:218,1
+DA:220,1
+DA:226,1
+DA:227,1
+FN:230,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetAllRoomsAsync_RepositoryReturnsNull_ThrowsNotfound>d__15::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetAllRoomsAsync_RepositoryReturnsNull_ThrowsNotfound>d__15::MoveNext()
+DA:231,1
+DA:233,1
+DA:234,1
+DA:236,1
+DA:242,1
+DA:243,1
+FN:247,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetRoomByIdAsync_GetRoomByIdAsync_DoesntThrow>d__16::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetRoomByIdAsync_GetRoomByIdAsync_DoesntThrow>d__16::MoveNext()
+DA:248,1
+DA:250,1
+DA:251,1
+DA:253,1
+DA:259,1
+DA:260,1
+FN:264,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetRoomByIdAsync_GetRoomByIdDoesntExist_ThrowNotFound>d__17::MoveNext()
+FNDA:1,System.Void unittests.BusinessLayerTests.RoomServicesTests/<GetRoomByIdAsync_GetRoomByIdDoesntExist_ThrowNotFound>d__17::MoveNext()
+DA:265,1
+DA:267,1
+DA:268,1
+DA:270,1
+DA:276,1
+DA:277,1
+LF:124
+LH:124
+BRF:0
+BRH:0
+FNF:29
+FNH:29
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeTests\ArrangeRooms.cs
+FN:7,BusinessLayer.DTOs.BookingDTOs.CreateRoomDTO unittests.BusinessLayerTests.ArrangeTests.ArrangeRooms::GetValidRoomDTO()
+FNDA:2,BusinessLayer.DTOs.BookingDTOs.CreateRoomDTO unittests.BusinessLayerTests.ArrangeTests.ArrangeRooms::GetValidRoomDTO()
+DA:8,2
+DA:9,2
+DA:10,2
+DA:11,2
+DA:12,2
+DA:13,2
+FN:15,BusinessLayer.DTOs.BookingDTOs.EditRoomDTO unittests.BusinessLayerTests.ArrangeTests.ArrangeRooms::GetValidEditRoomDTO()
+FNDA:4,BusinessLayer.DTOs.BookingDTOs.EditRoomDTO unittests.BusinessLayerTests.ArrangeTests.ArrangeRooms::GetValidEditRoomDTO()
+DA:16,4
+DA:17,4
+DA:18,4
+DA:19,4
+DA:20,4
+DA:21,4
+LF:12
+LH:12
+BRF:0
+BRH:0
+FNF:2
+FNH:2
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ResidentsServicesTests.cs
+FN:19,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests::SetUp()
+FNDA:17,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests::SetUp()
+DA:20,17
+DA:21,17
+DA:23,34
+DA:24,17
+DA:26,17
+DA:27,17
+DA:28,17
+FN:30,BusinessLayer.BusinessServices.BookingServices.ResidentServices UnitTests.BusinessLayerTests.ResidentsServicesTests::InitializeResidentServices()
+FNDA:17,BusinessLayer.BusinessServices.BookingServices.ResidentServices UnitTests.BusinessLayerTests.ResidentsServicesTests::InitializeResidentServices()
+DA:31,17
+DA:32,17
+DA:33,17
+DA:34,17
+DA:35,17
+DA:36,17
+DA:37,17
+FN:82,System.Boolean UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c::<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>b__7_1(System.String)
+FNDA:2,System.Boolean UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c::<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>b__7_1(System.String)
+DA:83,2
+FN:142,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass10_0::<DeleteResidentAsync_GiveNonExistingResidentId_ThrowsNotFound>b__0()
+FNDA:4,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass10_0::<DeleteResidentAsync_GiveNonExistingResidentId_ThrowsNotFound>b__0()
+DA:143,4
+FN:162,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass11_0::<EditResidentAsync_GiveValidParams_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass11_0::<EditResidentAsync_GiveValidParams_DoesntThrow>b__0()
+DA:163,2
+FN:182,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass12_0::<EditResidentAsync_GiveNonExistingResidentId_ThrowNotFound>b__0()
+FNDA:2,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass12_0::<EditResidentAsync_GiveNonExistingResidentId_ThrowNotFound>b__0()
+DA:183,2
+FN:200,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO>> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass13_0::<GetAllResidentsByReservationId_GiveValidParams_DoesntThrow>b__0()
+FNDA:4,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO>> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass13_0::<GetAllResidentsByReservationId_GiveValidParams_DoesntThrow>b__0()
+DA:201,4
+FN:218,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO>> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass14_0::<GetAllResidentsByReservationId_GiveNonValidParams_ThrowsNotFound>b__0()
+FNDA:4,System.Threading.Tasks.Task`1<System.Collections.Generic.IEnumerable`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO>> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass14_0::<GetAllResidentsByReservationId_GiveNonValidParams_ThrowsNotFound>b__0()
+DA:219,4
+FN:236,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass15_0::<GetResidentById_GiveValidParams_DoesntThrow>b__0()
+FNDA:4,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass15_0::<GetResidentById_GiveValidParams_DoesntThrow>b__0()
+DA:237,4
+FN:254,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass16_0::<GetResidentById_GiveNonExistingId_ThrowsNotFound>b__0()
+FNDA:4,System.Threading.Tasks.Task`1<BusinessLayer.DTOs.BookingDTOs.ResidentDTO> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass16_0::<GetResidentById_GiveNonExistingId_ThrowsNotFound>b__0()
+DA:255,4
+FN:54,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass6_0::<CreateResidentAsync_GiveValidParams_DoesntThrow>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass6_0::<CreateResidentAsync_GiveValidParams_DoesntThrow>b__0()
+DA:55,2
+FN:78,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass7_0::<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass7_0::<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>b__0()
+DA:79,2
+FN:104,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass8_0::<CreateResidentAsync_GiveNotExistingReservationId_ThrowNotFound>b__0()
+FNDA:2,System.Threading.Tasks.Task`1<System.Int32> UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass8_0::<CreateResidentAsync_GiveNotExistingReservationId_ThrowNotFound>b__0()
+DA:105,2
+FN:123,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass9_0::<DeleteResidentAsync_GiveValidParams_DoesntThrow>b__0()
+FNDA:4,System.Threading.Tasks.Task UnitTests.BusinessLayerTests.ResidentsServicesTests/<>c__DisplayClass9_0::<DeleteResidentAsync_GiveValidParams_DoesntThrow>b__0()
+DA:124,4
+FN:63,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>d__7::MoveNext()
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveExistingUserId_ThrowAlreadyExist>d__7::MoveNext()
+DA:64,1
+DA:66,1
+DA:67,1
+DA:69,1
+DA:70,1
+DA:72,1
+DA:73,1
+DA:74,1
+DA:76,1
+DA:82,1
+DA:84,1
+DA:85,1
+FN:89,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveNotExistingReservationId_ThrowNotFound>d__8::MoveNext()
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveNotExistingReservationId_ThrowNotFound>d__8::MoveNext()
+DA:90,1
+DA:92,1
+DA:93,1
+DA:95,1
+DA:96,1
+DA:98,1
+DA:99,1
+DA:100,1
+DA:102,1
+DA:108,1
+DA:109,1
+FN:40,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveValidParams_DoesntThrow>d__6::MoveNext()
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<CreateResidentAsync_GiveValidParams_DoesntThrow>d__6::MoveNext()
+DA:41,1
+DA:43,1
+DA:45,1
+DA:46,1
+DA:48,1
+DA:49,1
+DA:50,1
+DA:52,1
+DA:58,1
+DA:59,1
+FN:133,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<DeleteResidentAsync_GiveNonExistingResidentId_ThrowsNotFound>d__10::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<DeleteResidentAsync_GiveNonExistingResidentId_ThrowsNotFound>d__10::MoveNext()
+DA:134,2
+DA:136,2
+DA:137,2
+DA:138,2
+DA:140,2
+DA:146,2
+DA:147,2
+FN:114,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<DeleteResidentAsync_GiveValidParams_DoesntThrow>d__9::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<DeleteResidentAsync_GiveValidParams_DoesntThrow>d__9::MoveNext()
+DA:115,2
+DA:117,2
+DA:118,2
+DA:119,2
+DA:121,2
+DA:127,2
+DA:128,2
+FN:171,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<EditResidentAsync_GiveNonExistingResidentId_ThrowNotFound>d__12::MoveNext()
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<EditResidentAsync_GiveNonExistingResidentId_ThrowNotFound>d__12::MoveNext()
+DA:172,1
+DA:174,1
+DA:176,1
+DA:177,1
+DA:178,1
+DA:180,1
+DA:186,1
+DA:187,1
+FN:151,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<EditResidentAsync_GiveValidParams_DoesntThrow>d__11::MoveNext()
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<EditResidentAsync_GiveValidParams_DoesntThrow>d__11::MoveNext()
+DA:152,1
+DA:154,1
+DA:156,1
+DA:157,1
+DA:158,1
+DA:160,1
+DA:166,1
+DA:167,1
+FN:210,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetAllResidentsByReservationId_GiveNonValidParams_ThrowsNotFound>d__14::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetAllResidentsByReservationId_GiveNonValidParams_ThrowsNotFound>d__14::MoveNext()
+DA:211,2
+DA:213,2
+DA:214,2
+DA:216,2
+DA:222,2
+DA:223,2
+FN:192,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetAllResidentsByReservationId_GiveValidParams_DoesntThrow>d__13::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetAllResidentsByReservationId_GiveValidParams_DoesntThrow>d__13::MoveNext()
+DA:193,2
+DA:195,2
+DA:196,2
+DA:198,2
+DA:204,2
+DA:205,2
+FN:246,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetResidentById_GiveNonExistingId_ThrowsNotFound>d__16::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetResidentById_GiveNonExistingId_ThrowsNotFound>d__16::MoveNext()
+DA:247,2
+DA:249,2
+DA:250,2
+DA:252,2
+DA:258,2
+DA:259,2
+FN:228,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetResidentById_GiveValidParams_DoesntThrow>d__15::MoveNext()
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ResidentsServicesTests/<GetResidentById_GiveValidParams_DoesntThrow>d__15::MoveNext()
+DA:229,2
+DA:231,2
+DA:232,2
+DA:234,2
+DA:240,2
+DA:241,2
+LF:113
+LH:113
+BRF:0
+BRH:0
+FNF:25
+FNH:25
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ValidatorsTests.cs
+FN:14,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_Default_DoesntThrow(System.String)
+FNDA:4,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_Default_DoesntThrow(System.String)
+DA:15,4
+DA:17,4
+DA:18,4
+DA:19,4
+DA:20,4
+DA:23,8
+DA:26,4
+DA:27,4
+FN:31,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_DefaultWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_DefaultWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:32,1
+DA:34,1
+DA:35,1
+DA:36,1
+DA:37,1
+DA:41,2
+DA:44,1
+DA:45,2
+DA:46,1
+DA:47,1
+FN:52,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveHumanNameWithInvalidLength_ThrowLengthInvalid(System.String)
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveHumanNameWithInvalidLength_ThrowLengthInvalid(System.String)
+DA:53,2
+DA:55,2
+DA:56,2
+DA:57,2
+DA:58,2
+DA:61,4
+DA:64,2
+DA:65,4
+DA:66,2
+DA:67,2
+FN:74,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveValidHumanName_DoesntThrow(System.String)
+FNDA:4,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveValidHumanName_DoesntThrow(System.String)
+DA:75,4
+DA:77,4
+DA:78,4
+DA:79,4
+DA:80,4
+DA:83,8
+DA:86,4
+DA:87,4
+FN:91,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveHumanNameWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveHumanNameWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:92,1
+DA:94,1
+DA:95,1
+DA:96,1
+DA:97,1
+DA:100,2
+DA:103,1
+DA:104,2
+DA:105,1
+DA:106,1
+FN:113,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveTitle_DoesntThrow(System.String)
+FNDA:4,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveTitle_DoesntThrow(System.String)
+DA:114,4
+DA:116,4
+DA:117,4
+DA:118,4
+DA:119,4
+DA:122,8
+DA:125,4
+DA:126,4
+FN:130,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveTitleWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveTitleWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:131,1
+DA:133,1
+DA:134,1
+DA:135,1
+DA:136,1
+DA:139,2
+DA:142,1
+DA:143,2
+DA:144,1
+DA:145,1
+FN:152,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveItemName_DoesntThrow(System.String)
+FNDA:4,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveItemName_DoesntThrow(System.String)
+DA:153,4
+DA:155,4
+DA:156,4
+DA:157,4
+DA:158,4
+DA:161,8
+DA:164,4
+DA:165,4
+FN:169,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveItemNameWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:1,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveItemNameWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:170,1
+DA:172,1
+DA:173,1
+DA:174,1
+DA:175,1
+DA:178,2
+DA:181,1
+DA:182,2
+DA:183,1
+DA:184,1
+FN:190,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveEmail_DoesntThrow(System.String)
+FNDA:3,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveEmail_DoesntThrow(System.String)
+DA:191,3
+DA:193,3
+DA:194,3
+DA:195,3
+DA:196,3
+DA:199,6
+DA:202,3
+DA:203,3
+FN:214,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveEmailWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:8,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveEmailWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:215,8
+DA:217,8
+DA:218,8
+DA:219,8
+DA:220,8
+DA:223,16
+DA:226,8
+DA:227,24
+DA:228,8
+DA:229,8
+FN:234,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GivePhoneNumber_DoesntThrow(System.String)
+FNDA:2,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GivePhoneNumber_DoesntThrow(System.String)
+DA:235,2
+DA:237,2
+DA:238,2
+DA:239,2
+DA:240,2
+DA:243,4
+DA:246,2
+DA:247,2
+FN:258,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GivePhoneNumberWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:8,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GivePhoneNumberWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:259,8
+DA:261,8
+DA:262,8
+DA:263,8
+DA:264,8
+DA:267,16
+DA:270,8
+DA:271,17
+DA:272,8
+DA:273,8
+FN:280,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveDevLang_DoesntThrow(System.String)
+FNDA:4,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveDevLang_DoesntThrow(System.String)
+DA:281,4
+DA:283,4
+DA:284,4
+DA:285,4
+DA:286,4
+DA:289,8
+DA:292,4
+DA:293,4
+FN:301,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveDevLangWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+FNDA:5,System.Void UnitTests.BusinessLayerTests.ValidatorsTests::Validator_GiveDevLangWithInvalidSymbols_ThrowSymbolsInvalid(System.String)
+DA:302,5
+DA:304,5
+DA:305,5
+DA:306,5
+DA:307,5
+DA:310,10
+DA:313,5
+DA:314,10
+DA:315,5
+DA:316,5
+LF:136
+LH:136
+BRF:0
+BRH:0
+FNF:15
+FNH:15
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\MoqSetups\DateTimeProviderMoqSetups.cs
+FN:7,Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices> UnitTests.BusinessLayerTests.MoqSetups.DateTimeProviderMoqSetups::Setup_DateTimeNow_ReturnsStartOf2022Year(Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices>)
+FNDA:3,Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices> UnitTests.BusinessLayerTests.MoqSetups.DateTimeProviderMoqSetups::Setup_DateTimeNow_ReturnsStartOf2022Year(Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices>)
+DA:8,3
+DA:9,3
+DA:10,3
+DA:11,3
+DA:13,3
+DA:14,3
+FN:16,Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices> UnitTests.BusinessLayerTests.MoqSetups.DateTimeProviderMoqSetups::Setup_DateTimeNow_ReturnsStartOf2022Year23Hours(Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices>)
+FNDA:0,Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices> UnitTests.BusinessLayerTests.MoqSetups.DateTimeProviderMoqSetups::Setup_DateTimeNow_ReturnsStartOf2022Year23Hours(Moq.Mock`1<BusinessLayer.BusinessServices.IDateTimeProviderServices>)
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:22,0
+DA:23,0
+LF:12
+LH:6
+BRF:0
+BRH:0
+FNF:2
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\MoqSetups\ResidentRepositoryMoqSetups.cs
+FN:9,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_CreateResidentsAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:3,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_CreateResidentsAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:10,3
+DA:11,3
+DA:12,3
+DA:13,3
+DA:15,3
+DA:16,3
+FN:18,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetAllResidentsForReservationWithoutParams_ReturnsAllResidents(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:3,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetAllResidentsForReservationWithoutParams_ReturnsAllResidents(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:19,3
+DA:20,3
+DA:21,3
+DA:22,3
+DA:24,3
+DA:25,3
+FN:27,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetAllResidentsForReservation_ReturnsAllResidents(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:4,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetAllResidentsForReservation_ReturnsAllResidents(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:28,4
+DA:29,4
+DA:30,4
+DA:31,4
+DA:32,4
+DA:33,4
+DA:35,4
+DA:36,4
+FN:38,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetResidentByIdAsync_ReturnsResident(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>,System.Int32)
+FNDA:10,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_GetResidentByIdAsync_ReturnsResident(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>,System.Int32)
+DA:39,10
+DA:40,10
+DA:41,10
+DA:42,58
+DA:44,10
+DA:45,10
+FN:47,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_RemoveResidentAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:4,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_RemoveResidentAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:48,4
+DA:49,4
+DA:50,4
+DA:51,4
+DA:53,4
+DA:54,4
+FN:56,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_RemoveResidentsAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_RemoveResidentsAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:62,0
+DA:63,0
+FN:65,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_EditResidentAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+FNDA:2,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository> UnitTests.BusinessLayerTests.MoqSetups.ResidentRepositoryMoqSetups::Setup_EditResidentAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IResidentRepository>)
+DA:66,2
+DA:67,2
+DA:68,2
+DA:69,2
+DA:71,2
+DA:72,2
+LF:44
+LH:38
+BRF:0
+BRH:0
+FNF:7
+FNH:6
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\MoqSetups\ReservationRepositoryMoqSetups.cs
+FN:9,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsForDateAsync_ReturnsReservationsForDate(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsForDateAsync_ReturnsReservationsForDate(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:17,0
+DA:18,0
+BRDA:14,17,0,0
+BRDA:14,17,1,0
+FN:20,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationsAsync_ReturnsReservationsByExpression(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationsAsync_ReturnsReservationsByExpression(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:28,0
+DA:29,0
+FN:31,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsAllReservations(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsAllReservations(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:37,0
+DA:38,0
+FN:40,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsEmptyList(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsEmptyList(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:46,0
+DA:47,0
+FN:49,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsNull(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsAsync_ReturnsNull(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:55,0
+DA:56,0
+FN:58,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_CreateReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_CreateReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:64,0
+DA:65,0
+FN:67,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationByIdAsync_ReturnsNull(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationByIdAsync_ReturnsNull(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+FN:75,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationByIdAsync_ReturnsReservation(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:3,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetReservationByIdAsync_ReturnsReservation(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:76,3
+DA:77,3
+DA:78,3
+DA:79,27
+DA:80,3
+DA:81,3
+FN:83,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_EditReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_EditReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+FN:91,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_DeleteReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_DeleteReservationAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+FN:99,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsForRoomAsync_ReturnsReservationsForRoom(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository> UnitTests.BusinessLayerTests.MoqSetups.ReservationRepositoryMoqSetups::Setup_GetAllReservationsForRoomAsync_ReturnsReservationsForRoom(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IReservationRepository>)
+DA:100,0
+DA:101,0
+DA:102,0
+DA:103,0
+DA:104,0
+DA:105,0
+LF:70
+LH:6
+BRF:2
+BRH:0
+FNF:11
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\MoqSetups\RoomRepositoryMoqSetups.cs
+FN:9,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsAsync_ReturnsAllRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:2,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsAsync_ReturnsAllRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:10,2
+DA:11,2
+DA:12,2
+DA:13,2
+DA:14,2
+DA:16,2
+DA:17,2
+FN:19,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsWithoutParamAsync_ReturnsAllRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:5,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsWithoutParamAsync_ReturnsAllRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:20,5
+DA:21,5
+DA:22,5
+DA:23,5
+DA:25,5
+DA:26,5
+FN:28,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsWithoutParamAsync_ReturnsNoRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:1,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetAllRoomsWithoutParamAsync_ReturnsNoRooms(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:29,1
+DA:30,1
+DA:31,1
+DA:32,1
+DA:34,1
+DA:35,1
+FN:37,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_CreateRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:2,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_CreateRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:38,2
+DA:39,2
+DA:40,2
+DA:41,2
+DA:43,2
+DA:44,2
+FN:46,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetRoomByIdAsync_ReturnsRoomById(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>,System.Int32)
+FNDA:6,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetRoomByIdAsync_ReturnsRoomById(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>,System.Int32)
+DA:47,6
+DA:48,6
+DA:49,6
+DA:50,37
+DA:52,6
+DA:53,6
+FN:55,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_DeleteRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:4,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_DeleteRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:56,4
+DA:57,4
+DA:58,4
+DA:59,4
+DA:61,4
+DA:62,4
+FN:64,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetRoomsData(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:0,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_GetRoomsData(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:70,0
+DA:71,0
+FN:73,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_EditRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+FNDA:4,Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository> UnitTests.BusinessLayerTests.MoqSetups.RoomRepositoryMoqSetups::Setup_EditRoomAsync(Moq.Mock`1<RepositoryLayer.Interfaces.BookingInterfaces.IRoomRepository>)
+DA:74,4
+DA:75,4
+DA:76,4
+DA:77,4
+DA:79,4
+DA:80,4
+LF:49
+LH:43
+BRF:0
+BRH:0
+FNF:8
+FNH:7
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeEntities\ArrangeRoomEntities.cs
+FN:8,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> UnitTests.BusinessLayerTests.ArrangeEntities.ArrangeRoomEntities::GetEntities()
+FNDA:13,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Room> UnitTests.BusinessLayerTests.ArrangeEntities.ArrangeRoomEntities::GetEntities()
+DA:9,13
+DA:10,13
+DA:11,13
+DA:12,13
+DA:13,13
+DA:14,13
+DA:15,13
+DA:16,13
+DA:17,13
+DA:18,13
+DA:19,13
+DA:20,13
+DA:21,13
+DA:22,13
+DA:23,13
+DA:24,13
+DA:25,13
+DA:26,13
+DA:27,13
+DA:28,13
+DA:29,13
+DA:30,13
+DA:31,13
+DA:32,13
+DA:33,13
+DA:34,13
+DA:35,13
+DA:36,117
+DA:37,13
+DA:38,13
+DA:39,13
+DA:40,13
+DA:41,13
+DA:42,117
+DA:43,13
+DA:44,13
+DA:45,13
+LF:37
+LH:37
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeEntities\ArrangeResidentEntities.cs
+FN:7,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidentEntities::GetEntities()
+FNDA:46,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Resident> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidentEntities::GetEntities()
+DA:8,46
+DA:9,46
+DA:10,46
+DA:11,46
+DA:12,46
+DA:13,46
+DA:14,46
+DA:15,46
+DA:16,46
+DA:17,46
+DA:18,46
+DA:19,46
+DA:20,46
+DA:21,46
+DA:22,46
+DA:23,46
+DA:24,46
+DA:25,46
+DA:26,46
+DA:27,46
+DA:28,46
+DA:29,46
+DA:30,46
+DA:31,46
+DA:32,46
+DA:33,46
+DA:34,46
+DA:35,46
+DA:36,46
+DA:37,46
+DA:38,46
+DA:39,46
+DA:40,46
+DA:41,46
+DA:42,46
+DA:43,46
+DA:44,46
+DA:45,46
+DA:46,46
+DA:47,46
+LF:40
+LH:40
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeEntities\ArrangeReservationEntities.cs
+FN:7,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservationEntities::GetEntities()
+FNDA:29,System.Collections.Generic.IReadOnlyCollection`1<RepositoryLayer.Databases.Entities.BookingEntities.Reservation> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservationEntities::GetEntities()
+DA:8,29
+DA:9,29
+DA:10,29
+DA:11,29
+DA:12,29
+DA:13,29
+DA:14,29
+DA:15,29
+DA:16,29
+DA:17,29
+DA:18,29
+DA:19,29
+DA:20,29
+DA:21,29
+DA:22,29
+DA:23,29
+DA:24,29
+DA:25,29
+DA:26,29
+DA:27,29
+DA:28,29
+DA:29,29
+DA:30,29
+DA:31,29
+DA:32,29
+DA:33,29
+DA:34,29
+DA:35,29
+DA:36,29
+DA:37,29
+DA:38,29
+DA:39,29
+DA:40,29
+DA:41,29
+DA:42,29
+DA:43,29
+DA:44,29
+DA:45,29
+DA:46,29
+DA:47,29
+DA:48,29
+DA:49,29
+DA:50,29
+DA:51,29
+DA:52,29
+DA:53,29
+DA:54,29
+DA:55,29
+DA:56,29
+DA:57,29
+DA:58,29
+DA:59,29
+DA:60,29
+DA:61,29
+DA:62,29
+DA:63,29
+DA:64,29
+DA:65,145
+DA:66,29
+DA:67,29
+DA:68,29
+DA:69,29
+DA:70,29
+DA:71,29
+DA:72,29
+DA:73,29
+DA:74,29
+DA:75,29
+DA:76,29
+DA:77,29
+DA:78,29
+DA:79,29
+DA:80,29
+DA:81,29
+DA:82,29
+DA:83,29
+DA:84,29
+DA:85,29
+DA:86,29
+DA:87,29
+DA:88,29
+DA:89,29
+DA:90,29
+DA:91,29
+DA:92,29
+DA:93,29
+DA:94,29
+DA:95,29
+DA:96,29
+LF:89
+LH:89
+BRF:0
+BRH:0
+FNF:1
+FNH:1
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeTests\ArrangeResidents.cs
+FN:7,BusinessLayer.DTOs.BookingDTOs.ResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidResidentDTO()
+FNDA:0,BusinessLayer.DTOs.BookingDTOs.ResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidResidentDTO()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+FN:18,BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidCreateResidentDTO()
+FNDA:3,BusinessLayer.DTOs.BookingDTOs.CreateResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidCreateResidentDTO()
+DA:19,3
+DA:20,3
+DA:21,3
+DA:22,3
+DA:23,3
+DA:24,3
+DA:25,3
+DA:26,3
+FN:28,BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidCreateReservationResidentDTO()
+FNDA:0,BusinessLayer.DTOs.BookingDTOs.CreateReservationResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidCreateReservationResidentDTO()
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+FN:37,BusinessLayer.DTOs.BookingDTOs.EditResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidResidentToEditDTO()
+FNDA:2,BusinessLayer.DTOs.BookingDTOs.EditResidentDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeResidents::GetValidResidentToEditDTO()
+DA:38,2
+DA:39,2
+DA:40,2
+DA:41,2
+DA:42,2
+DA:43,2
+LF:30
+LH:14
+BRF:0
+BRH:0
+FNF:4
+FNH:2
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeTests\ArrangeReservations.cs
+FN:7,BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservations::GetValidCreateReservationDTO()
+FNDA:0,BusinessLayer.DTOs.BookingDTOs.CreateReservationDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservations::GetValidCreateReservationDTO()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+FN:19,BusinessLayer.DTOs.BookingDTOs.EditReservationDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservations::GetValidEditReservationDTO()
+FNDA:0,BusinessLayer.DTOs.BookingDTOs.EditReservationDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservations::GetValidEditReservationDTO()
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+LF:19
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeTests\ArrangeReservationsData.cs
+FN:7,System.Collections.Generic.Dictionary`2<System.Guid,System.Collections.Generic.IReadOnlyCollection`1<BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO>> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservationsData::GetValidReservationsData()
+FNDA:0,System.Collections.Generic.Dictionary`2<System.Guid,System.Collections.Generic.IReadOnlyCollection`1<BusinessLayer.DTOs.BookingDTOs.ReservationDataDTO>> UnitTests.BusinessLayerTests.ArrangeTests.ArrangeReservationsData::GetValidReservationsData()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+DA:15,0
+DA:16,0
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+DA:24,0
+DA:25,0
+DA:26,0
+DA:27,0
+DA:28,0
+DA:29,0
+DA:30,0
+DA:31,0
+DA:32,0
+DA:33,0
+DA:34,0
+DA:35,0
+DA:36,0
+DA:37,0
+DA:38,0
+DA:39,0
+DA:40,0
+DA:41,0
+DA:42,0
+DA:43,0
+DA:44,0
+DA:45,0
+DA:46,0
+DA:47,0
+DA:48,0
+DA:49,0
+DA:50,0
+DA:51,0
+DA:52,0
+DA:53,0
+DA:54,0
+DA:55,0
+DA:56,0
+DA:57,0
+DA:58,0
+DA:59,0
+DA:60,0
+DA:61,0
+DA:62,0
+DA:63,0
+DA:64,0
+DA:65,0
+DA:66,0
+DA:67,0
+DA:68,0
+DA:69,0
+DA:70,0
+DA:71,0
+DA:72,0
+DA:73,0
+DA:74,0
+DA:75,0
+DA:76,0
+DA:77,0
+DA:78,0
+DA:79,0
+DA:80,0
+DA:81,0
+DA:82,0
+DA:83,0
+DA:84,0
+DA:85,0
+DA:86,0
+DA:87,0
+DA:88,0
+DA:89,0
+DA:90,0
+DA:91,0
+DA:92,0
+DA:93,0
+DA:94,0
+DA:95,0
+DA:96,0
+DA:97,0
+DA:98,0
+LF:91
+LH:0
+BRF:0
+BRH:0
+FNF:1
+FNH:0
+end_of_record
+SF:C:\Users\dgarla\Documents\PROJECTS\Test\test\UnitTests\BusinessLayerTests\ArrangeTests\ArrangeUsers.cs
+FN:7,BusinessLayer.DTOs.UserDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeUsers::GetValidUserWhichIsAdmin()
+FNDA:0,BusinessLayer.DTOs.UserDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeUsers::GetValidUserWhichIsAdmin()
+DA:8,0
+DA:9,0
+DA:10,0
+DA:11,0
+DA:12,0
+DA:13,0
+DA:14,0
+FN:16,BusinessLayer.DTOs.UserDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeUsers::GetValidUserWhichIsNotAdmin()
+FNDA:0,BusinessLayer.DTOs.UserDTO UnitTests.BusinessLayerTests.ArrangeTests.ArrangeUsers::GetValidUserWhichIsNotAdmin()
+DA:17,0
+DA:18,0
+DA:19,0
+DA:20,0
+DA:21,0
+DA:22,0
+DA:23,0
+LF:14
+LH:0
+BRF:0
+BRH:0
+FNF:2
+FNH:0
+end_of_record

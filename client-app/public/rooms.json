@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Mini for two.",
+    "desc": "Spacious and comfortable, this modern furnished room offers a double-size bed and breathtaking views.",
+    "size": 25,
+    "beds": 1,
+    "capacity": 2,
+    "price": 120,
+    "photo": "MiniForTwo.png"
+  },
+  {
+    "id": 2,
+    "name": "Vip for two",
+    "desc": "Spacious and comfortable, this modern furnished room offers a king-size bed and breathtaking views.",
+    "size": 50,
+    "beds": 1,
+    "capacity": 2,
+    "price": 200,
+    "photo": "VipForTwo.png"
+  },
+  {
+    "id": 3,
+    "name": "Vip for family",
+    "desc": "If you want a little extra from your stay, you might like our superior rooms. With double doors opening onto a private terrace, you will enjoy spectacular views of our pristine beach.",
+    "size": 125,
+    "beds": 3,
+    "capacity": 4,
+    "price": 350,
+    "photo": "VipForFamily.png"
+  },
+  {
+    "id": 4,
+    "name": "Vip for friends",
+    "desc": "For large groups of friends or families to enjoy spectacular views of our pristine beach.",
+    "size": 145,
+    "beds": 5,
+    "capacity": 7,
+    "price": 770,
+    "photo": "VipForFriends.png"
+  }
+]
